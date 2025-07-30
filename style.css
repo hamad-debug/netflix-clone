@@ -5,7 +5,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-body{
+body {
   background-color: black;
 }
 .main {
@@ -45,39 +45,71 @@ nav button {
 }
 .hero {
   font-family: "Martel Sans", sans-serif;
-  height: 100%;
+  height: 78%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: white;
   position: relative;
-  gap: 23px ;
+  gap: 23px;
   padding: 30px;
-  
 }
 
-.hero> :first-child{
-    font-weight: 900;
-    font-size: 48px;
-    text-align: center;
+.hero > :first-child {
+  font-weight: 900;
+  font-size: 48px;
+  text-align: center;
 }
- .hero>  :nth-child(2){
+.hero > :nth-child(2) {
   font-weight: 400;
   font-size: 24px;
   text-align: center;
-
- }
-  .hero  :nth-child(3){
-  font-weight: 400;
-  font-size:20px;
-  text-align: center;
-
- }
- 
-.curveseperator{
- background-color: grey;
-height: 11px;
 }
- .btn{
+.hero :nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+}
+.seperation {
+  height: 7px;
+  background-color: rgb(104, 104, 104);
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(248, 243, 243, 0.021);
+  color: white;
+  border-radius: 4px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.btn-red-sm {
+  background-color: red;
+  color: white;
+ padding: 3px 8px;
+  border-radius: 4px;
+font-weight: 400;
+}
+.hero-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.main input {
+color: white;
+  padding: 7px 101px 8px 14px;
+  font-size: 12px;
+  border-radius: 4px;
+  background-color: rgba(23, 23, 23, 0.7);
+  border: 1px solid rgba(246, 238, 238, 0.5);
+}
+.btn-red-btn {
+font-weight: 400;
+  background-color: red;
+  color: white;
+  padding: 3px 24px;
+  font-size: 20px;
+  border-radius: 4px;
 }
